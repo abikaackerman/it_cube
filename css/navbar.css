@@ -1,0 +1,29 @@
+
+
+.navbar{
+  padding: 30px;
+  background-color: white; 
+  box-shadow: 0px 21px 25px rgba(0, 0, 0, 0.141882);
+  backdrop-filter: blur(10.8731px);
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Dela Gothic One";
+}
+
+.menu li {
+  a {
+    text-decoration: none;
+    transition: all 0.55s;
+  }
+
+  &:hover a {
+    color: #3F29FE;
+  }
+}
+
+
