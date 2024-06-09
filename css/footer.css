@@ -1,4 +1,4 @@
-footer, button, input {
+.app-title, button, input {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     letter-spacing: 1.4px;
@@ -12,7 +12,6 @@ footer, button, input {
   .container {
     flex: 0 1 700px;
     margin: auto;
-    padding: 10px;
   }
   
   .screen {
@@ -165,7 +164,51 @@ footer, button, input {
   .app-form-button:hover {
     color: black;
   }
-  
+
+.footer_container{
+  background-color: #FFF;
+}
+
+  .footer-nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0px 21px 25px rgba(0, 0, 0, 0.141882);
+    backdrop-filter: blur(10.8731px);
+  }
+
+  .socials_icons{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-top: 30px;
+    column-gap: 15px;
+  }
+
+  .list_title{
+    font-family: "Dela Gothic One";
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  .list-section{
+    font-family: "Comfortaa";
+    padding-top: 20px;
+  }
+
+  .courses-list{
+    font-family: "Comfortaa"
+  }
+
+  .content_privacy{
+    background-color: #FFFF;
+    font-family: "Comfortaa";
+    font-size: 13px;
+    font-weight: bold;
+  }
+
   @media screen and (max-width: 520px) {
     .screen-body {
       flex-direction: column;
