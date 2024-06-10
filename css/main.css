@@ -13,11 +13,12 @@ h1{
     max-width: 800px;
 }
 
-p{
+.center_title{
     padding-top: 30px;
     font-family: "Comfortaa";
     font-size: 15px;
     max-width: 500px;
+    padding-bottom: 30px;
 }
 
 .about_it{

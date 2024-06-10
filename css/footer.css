@@ -203,10 +203,10 @@
   }
 
   .content_privacy{
-    background-color: #FFFF;
     font-family: "Comfortaa";
     font-size: 13px;
     font-weight: bold;
+    background-color: #FFFF;
   }
 
   @media screen and (max-width: 520px) {
